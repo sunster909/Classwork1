@@ -1,0 +1,33 @@
+.blah{
+    background-color: #D1E7E9;
+    margin: 25px;
+    padding: 150px;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 15px;
+}
+
+.box{
+    display:flex;
+    
+    flex-direction: row;
+}
+
+@media(min-width: 481px){
+
+}
+
+@media (min-width: 320px)and (max-width: 480px){
+    
+    .blah{
+        display: flex;
+        flex-direction: column;
+        background-color: #E9D1E6;
+    }
+    h1{
+        font-size: 30px;
+        text-align: center;
+    }
+}
